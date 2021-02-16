@@ -1,0 +1,85 @@
+body {
+    background-color: #eee;
+  }
+  
+  header {
+    background-color: white;
+  }
+  header .header__codigo span:first-of-type {
+    color: #252A59;
+  }
+  header .header__codigo span:last-of-type {
+    color: #ac1b5a;
+  }
+  header .header__social .header__links .header__link a {
+    color: white;
+    background-color: #ac1b5a;
+  }
+  
+  .main .main__circle {
+    background-color: #ac1b5a;
+    color: white;
+    box-shadow: 0px 0px 20px #bbb;
+  }
+  .main .main__form button {
+    background-color: #ac1b5a;
+    color: white;
+  }
+  
+  .footer {
+    background-color: #ac1b5a;
+    color: white;
+    font-size: 0.8em;
+  }
+  
+  .form {
+    background-color: white;
+    box-shadow: 0px 0px 20px #bbb;
+  }
+  .form label {
+    color: #ac1b5a;
+  }
+  .form > input[type=text] {
+    border-bottom: 2px solid #ac1b5a !important;
+    color: #ac1b5a;
+  }
+  .form .form__group input[type=text] {
+    border-bottom: 2px solid #ac1b5a !important;
+    color: #ac1b5a;
+  }
+  .form .form__button button {
+    background-color: #ac1b5a;
+    color: white;
+  }
+  
+  .cedula .cedula__title h1 {
+    color: #ac1b5a;
+  }
+  .cedula .cedula__indicaciones p {
+    color: #ac1b5a;
+  }
+  .cedula .lista .card {
+    box-shadow: 0px 0px 20px #bbb;
+    background-color: white;
+    border-left: 8px solid #ac1b5a;
+  }
+  .cedula .lista .card .card__info .card__name {
+    color: #444;
+  }
+  .cedula .lista .card .card__info .card__partido {
+    color: #888;
+  }
+  .cedula .lista .card:hover, .cedula .lista .card.active {
+    background-color: #ac1b5a;
+  }
+  .cedula .lista .card:hover .card__name {
+    color: white !important;
+  }
+  .cedula .lista .card:hover .card__partido {
+    color: #ddd !important;
+  }
+  
+  .cedula__form button {
+    background-color: #ac1b5a;
+    color: white;
+  }
